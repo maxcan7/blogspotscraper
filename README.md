@@ -1,14 +1,16 @@
 # Blogspotscraper
 A Python 3 script for scraping a Blogspot blog recursively. Saves each post as a new html file, which is cleaned from most of its html code.
 
+This is a forked and modified version of the original script located here: https://github.com/christopherkullenberg/blogspotscraper
+
 ### Requirements
 This script uses BeautifulSoup. Install with:
 
     pip3 install beautifulsoup4
 
 ### Usage
-1. Change the `url` variable to the URL of the latest blog post in the blog. Save.
-2. Run with `python3 blogspotscraper.py`
+1. Change the `url` variable in ths ehsll script
+2. Run in bash with `blogspotscraper_run.sh`
 3. Abort scraping by pressing CTLC-C. Or the script will continue until there are no more posts left (or you get banned for over-using bandwidth)
 
 ### Limitations
