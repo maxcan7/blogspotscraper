@@ -1,3 +1,5 @@
+#!/usr/bin/env py
+
 """
 This script scrapes a Blogspot blog by iterating back in its history.
 """
@@ -8,7 +10,7 @@ import re
 import sys
 from bs4 import BeautifulSoup
 
-#Set url as input in blogspotscraper_run.sh
+# Set url as input in blogspotscraper_run.sh
 url = sys.argv[1]
 
 counter = 0
