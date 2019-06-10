@@ -12,11 +12,11 @@ Use on your own risk.
 import requests
 import io
 import re
+import sys
 from bs4 import BeautifulSoup
 
-#Set url to Blogger blog between the single quotation marks
-#For examle url = 'http://german-podcast.blogspot.se/2013/01/new-vocitach-android-app-with-more-than.html'
-url = ''
+#Set url as input in blogspotscraper_run.sh
+url = sys.argv[1]
 
 counter = 0
 
