@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-url = ''
+url=''
 ./src/blogspotscraper.py $url
